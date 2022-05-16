@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main(){
-
+  runApp(AZApp());
 }
 
 class AZApp extends StatelessWidget {
@@ -9,6 +9,8 @@ class AZApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      color: Colors.amberAccent,
+    );
   }
 }
